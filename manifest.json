@@ -1,0 +1,10 @@
+{
+   "name": "Amazon商品注意喚起",
+   "description": "Amazonで商品名にNGワードが含む場合に左上に注意を出す",
+   "manifest_version": 3,
+   "content_scripts": [ {
+      "matches": [ "https://www.amazon.co.jp/*" ],
+      "js": [ "main.js" ]
+   } ],
+   "version": "1.0.0.0"
+}
